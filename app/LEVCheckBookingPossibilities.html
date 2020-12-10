@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Raumverwaltung</title>
+    <script src="../script/main.js"></script>
+    <link href="http://localhost/bfw/Raumverwaltung-neu/css/bildschirm.css" rel="stylesheet" media="all">
+  </head>
+  <body onload="getFormBookingPossibilities('mainContent')">
+    <nav class="hidden-print">
+      <a href="../index.php?befehl=logout">Logout</a>
+      <a id="homepageLink" href="../index.php?befehl=adminMenu" style="display: none;">Startseite</a>
+      <a href="../index.php?befehl=adminRooms">Zur Raumübersicht</a>
+    </nav>
+    <div class="adminmenu usermenu" id="mainContent"></div>
+    <footer role="contentinfo" class="hidden-print">
+    	<small>Copyright &copy; <time datetime="2020">2020</time> IT-Solution & Design GmbH | Tel: 040-123456 | E-Mail: raumverwaltung@it-solution.de</small>
+    </footer>
+  </body>
+</html>
